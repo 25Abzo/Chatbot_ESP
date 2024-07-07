@@ -9,7 +9,7 @@ function appendMessage(sender, message) {
 
     const img = document.createElement('img');
     if (sender === 'bot') {
-        img.src = 'https://png.pngtree.com/png-clipart/20230823/original/pngtree-chatbot-color-icon-chat-bot-picture-image_8213084.png';
+        img.src = 'https://img.freepik.com/premium-photo/robot-android-chatbot-ai-bot-cartoon-3d-style-character-design-illustration-ai-generated_859483-21374.jpg';
         img.alt = 'Bot';
     } else if (sender === 'user') {
         img.src = 'https://www.w3schools.com/w3images/avatar2.png'; 
